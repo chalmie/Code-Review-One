@@ -82,6 +82,12 @@ body {
   margin-right:40px;
 }
 
+span {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 /* Jumbotron */
 .jumbotron {
   background-image:url('http://harold.wpengine.netdna-cdn.com/images/moon-captured-bw-lg.jpg');
@@ -103,7 +109,7 @@ body {
 
 .jumbotron h2 {
   color:white;
-  margin-bottom: -25px;
+  margin-bottom: -10px;
 }
 
 .jumbotron p {
@@ -117,6 +123,7 @@ body {
   padding:5px 5px 5px 5px;
   text-decoration:none;
   border:2px solid white;
+  font-size: 0em;
 }
 
 /* Footer */
@@ -133,16 +140,11 @@ body {
     line-height: 64px;
   }
 
-  .main, .jumbotron {
-    padding: 0 30px;
-  }
 
-  .main img {
-    width: 100%;
-  }
+.main, .jumbotron {
+  padding: 0 30px;
 }
 
-span {
-  font-style: italic;
-  font-weight: bold;
+.main img {
+    width: 100%;
 }
